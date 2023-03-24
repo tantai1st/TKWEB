@@ -1,0 +1,63 @@
+body{ font-size: 16px;
+  background-color: powderblue;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  h1{text-decoration-line: underline;font-style: oblique;
+  color:brown;}
+  h3{text-decoration-line: underline;
+  color:green;}
+
+/* Header **/
+header{
+  background-color: bisque;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 2px solid;
+  margin: -7px;
+  text-decoration: underline;
+  color:thistle
+}
+
+header a{
+  color:royalblue;
+  margin: 3px;
+}
+
+header li{
+ color:hotpink;font-size: 18px;font-family: 'Times New Roman', Times, serif;
+margin: 3px;
+}
+
+header #branding{ 
+  color:blue;
+  font-size: 18px;
+}
+
+header #branding h1{ text-align: center;color:slateblue;
+  border-color: gray;font-family: 'Times New Roman', Times, serif;
+}
+
+header nav{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bold;
+}
+
+header .highlight, header .current a{  
+color:purple
+}
+
+header a:hover{ color:red;
+text-align: center;
+font-style: oblique;
+}
+
+footer{
+  font-style: oblique;
+  text-align: center;
+  text-decoration-line: underline;
+  font-weight: bold;
+}
+
+#newsletter form input[type="email"], .quote input, .quote textarea{
+    color:#e8491d;
+  }
+
