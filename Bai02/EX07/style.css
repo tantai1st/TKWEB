@@ -1,0 +1,130 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:0;
+    margin:0;
+    background-color:darkgrey;
+}
+
+/* Global */
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+   
+}
+
+ul{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button_1{
+  padding-top: 5px;
+  color:black;
+  background-color: royalblue;
+  font-size: 18px;
+}
+
+.dark{
+    padding-top:10px;
+    min-height:80px;
+    background-color:slateblue;
+    text-indent: 10px;
+    border-radius: 20px;
+}
+
+/* Header **/
+header{
+    background-color: slateblue;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:goldenrod 3px solid;
+}
+
+header a{
+    color:hotpink;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:20px;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding: 20px;
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    margin:0;
+}
+
+header nav{
+    float:right;
+    margin-top:10px;
+}
+
+header .highlight, header .current a{
+    color:greenyellow;
+    font-weight:bold;
+}
+
+header a:hover{
+  color:purple;
+  font-weight: bold;
+}
+
+/* Showcase */
+#showcase{
+    background-image:url(/img/showcase.jpg);
+    padding:120px;
+
+}
+
+#showcase h1{
+    font-size:70px;
+}
+
+#showcase p{
+    font-size:50px;
+}
+
+/* Newsletter */
+#newsletter{
+  padding-top: 20px 70px 10px 1px;
+    margin: -7px; 
+    background-color:slateblue;
+    border-top-style: solid;
+    color:orange;
+    min-height: 120px;
+}
+
+#newsletter h1{
+  color:plum;
+  display: inline-block;
+  padding: 20px;
+}
+
+#newsletter form {
+    margin:auto;
+    display: inline-block;
+    float:right;
+    padding: 40px;
+}
+
+#newsletter input[type="email"]{
+  color: salmon;
+  font-size: 18px;
+}
+
+
+footer{
+    color:purple;
+    background-color: antiquewhite;
+    text-align: center;
+    font-weight: bold;
+}
